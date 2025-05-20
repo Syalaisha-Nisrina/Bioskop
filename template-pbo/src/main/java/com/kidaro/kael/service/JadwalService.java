@@ -1,6 +1,6 @@
-package com.bioskop.service;
+package com.kidaro.kael.service;
 
-import com.bioskop.model.Jadwal;
+import com.kidaro.kael.model.Jadwal;
 
 import java.util.ArrayList;
 import java.util.List;

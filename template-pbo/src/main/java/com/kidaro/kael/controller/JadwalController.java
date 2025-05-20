@@ -1,8 +1,8 @@
-package com.bioskop.controller;
+package com.kidaro.kael.controller;
 
-import com.bioskop.model.Film;
-import com.bioskop.model.Jadwal;
-import com.bioskop.service.JadwalService;
+import com.kidaro.kael.model.Film;
+import com.kidaro.kael.model.Jadwal;
+import com.kidaro.kael.service.JadwalService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
