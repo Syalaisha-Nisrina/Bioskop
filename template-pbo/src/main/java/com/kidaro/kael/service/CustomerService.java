@@ -12,9 +12,9 @@ import java.util.List;
 @Service
 public class CustomerService {
 
-    public void lihatFilm(List<Film> daftarFilm) {
+    public void lihatFilm(List<FilmRepository> daftarFilm) {
         System.out.println("Daftar film yang sedang tayang:");
-        for (Film film : daftarFilm) {
+        for (FilmRepository film : daftarFilm) {
             System.out.println("- " + film.getJudul());
         }
     }

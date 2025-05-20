@@ -31,7 +31,7 @@ public class JadwalController {
         @RequestParam String tanggal,
         @RequestParam String waktu
     ) {
-        Film film = new Film(judulFilm, ruangan);
+        FilmRepository film = new FilmRepository(judulFilm, ruangan);
         Jadwal jadwalBaru = new Jadwal(id, film, LocalDate.parse(tanggal), LocalTime.parse(waktu));
 
         boolean sukses = jadwalService.tambahJadwal(jadwalBaru);

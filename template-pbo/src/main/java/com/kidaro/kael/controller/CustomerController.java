@@ -32,7 +32,7 @@ public class CustomerController {
     @GetMapping("/{id}/films")
     public void lihatFilm(@PathVariable Long id) {
         Customer customer = customerRepository.findById(id).orElseThrow();
-        List<Film> daftarFilm = filmRepository.findAll();
+        List<FilmRepository> daftarFilm = filmRepository.findAll();
         customerService.lihatFilm(daftarFilm);
     }
 
