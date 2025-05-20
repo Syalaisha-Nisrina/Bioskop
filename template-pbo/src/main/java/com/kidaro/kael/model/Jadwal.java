@@ -1,6 +1,5 @@
 package com.kidaro.kael.model;
 
-public package com.kidaro.kael.model;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
